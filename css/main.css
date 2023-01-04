@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url( https://thumbs.dreamstime.com/b/sliced-pizza-vibrant-color-orange-background-172080059.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+  }
+  .pitsa {
+      display: flex;
+      justify-content: center;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 30px;  
+      
+    }
+    .non{
+      font-size: 20px;
+      color:rgb(1, 1, 1) ;
+    }
+    
+    .select {
+      margin-top: 5px;
+      width: 185px;
+      height: 30px;
+      padding: 0 15px 0 8px;
+      outline: none;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    
+     
+    
+    .option {
+      background-color: rgb(223, 223, 223);
+    }
+    
+  
+    
+    .radius_form {
+      margin-top: 10px; 
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  h4{
+    margin-top: 10px;
+  }
+    .radius{
+      width: 35px;
+      height:35px;
+      cursor:pointer;
+      background-color: crimson;
+      margin-right: 10px;
+      display: flex;
+    }
+    
+    .rd-form:last-child {
+      margin: 0;  
+    }
+    
+    .box{
+      margin-top: 20px;
+      width: 320px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .qoshimcha{
+      margin-top: 30px;
+    }
+    .bir {
+      margin-right: 41px;
+    }
+    
+    .ikki {
+      margin-right: 20px;
+    }
+    
+    .uch {
+      margin-right: 50px;
+    }
+    
+    .tor {
+      margin-left: 23px;
+    }
+    
+    .site-input {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    
+    .put-box {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .put-box:nth-child(5) {
+      margin: 0;
+    }
+    .put-box:nth-child(6) {
+      margin: 0;
+    }
+    
+    .qsh-box {
+      margin-top: 10px;
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .input-2 {
+      display: flex;
+      width: 100px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .flex-span {
+      display: block;
+      width: 2.5px;
+      height: 550px;
+      border-radius: 25px;
+      background-color: black;
+    }
+    
+    .btn {
+      cursor: pointer;
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+  }
+  .btn:hover{
+  background-color:rgb(255, 0, 247) ;
+  opacity: 50s;
+  }
+  
+    .first-box {
+      margin-right: 200px;
+    }
+  
+    .scound-box {
+      margin-left: 100px;
+    }
+  
+    .scound-box span {
+      color:  rgb(255, 0, 247);
+    }
+  
+    .input-result {
+      color:  rgb(255, 0, 247);
+    }
